@@ -47,12 +47,19 @@ let str1 = "Ramesh"
 let str2 = "war"
 let str3 = str1 + str2
 
-console.log((3 + 4) * (5 % 3)); // 14
-console.log(3 + 4 * 5 % 3);  // 5
+//console.log((3 + 4) * (5 % 3)); // 14
+//console.log(3 + 4 * 5 % 3);  // 5
 
-console.log(true) // true
-console.log(+true) // 1
+//console.log(true) // true
+//console.log(+true) // 1
 
-console.log(+"")
+//console.log(+"")  // 0
 
-let
+let num1, num2, num3
+num1 = num2 = num3 = 2+2
+
+
+let gameCounter = 100
+//gameCounter++; // 101
+++gameCounter;
+console.log(gameCounter); // 101
